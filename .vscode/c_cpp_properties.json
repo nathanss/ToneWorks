@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Windows MSVC",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+            "intelliSenseMode": "windows-msvc-x64",
+            "cppStandard": "c++17",
+            "windowsSdkVersion": "10.0.26100.0",
+            "includePath": [
+                "${workspaceFolder}\\Source",
+                "${workspaceFolder}\\build\\ToneWorks_artefacts\\JuceLibraryCode",
+                "${workspaceFolder}\\JUCE\\modules"
+            ],
+            "defines": [
+                "JUCE_WEB_BROWSER=0",
+                "JUCE_USE_CURL=0",
+                "JUCE_VST3_CAN_REPLACE_VST2=0"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}\\Source",
+                    "${workspaceFolder}\\build\\ToneWorks_artefacts\\JuceLibraryCode",
+                    "${workspaceFolder}\\JUCE\\modules"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
